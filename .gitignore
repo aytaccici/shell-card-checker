@@ -1,0 +1,37 @@
+# Yapılandırma dosyaları
+.env
+
+# Bakiye kayıtları
+balance_*.json
+
+# Log dosyaları
+*.log
+cron.log
+
+# CAPTCHA görselleri (geçici)
+captcha_*.png
+
+# Debug dosyaları
+debug_*.html
+debug_*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
